@@ -5,7 +5,7 @@ body{
 #card_title {
     margin: 20px;
     padding: 25px;
-    min-height: 250px;
+    min-height: 300px;
     display: grid;
     grid-template-rows: 20px 50px 1fr 50px;
     border-radius: 10px;
