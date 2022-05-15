@@ -1,0 +1,89 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#card_title {
+    margin: 20px;
+    padding: 25px;
+    min-height: 200px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+}
+#card_title:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+
+#card_title {
+    background: radial-gradient(#030ff9, #88177b);
+  }
+
+#card_title {
+    grid-row: 4/5;
+    align-self: center;
+  }
+
+#title{
+    padding-top: 20px;
+    font-size:x-large;
+    color:white;
+    text-align: center;
+}
+
+/* Tarjetas inferiores */
+
+#card_pres {
+    margin: 20px;
+    padding: 25px;
+    max-width: 100%;
+    min-height: 200px;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+}
+
+#card_pres {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+#card_pres {
+    background: radial-gradient(#e976ac, #925de8);
+    padding-top: 20px;
+    font-size: large;
+    color:white;
+    text-align: left;
+  }
+
+  #card_1 {
+    margin: 20px;
+    padding: 25px;
+    max-width: 100%;
+    min-height: 200px;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+}
+
+#card_1 {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+#card_1 {
+    background: radial-gradient(#39d4ef, #ca5fe8);
+    padding-top: 20px;
+    font-size: large;
+    color:white;
+    text-align: left;
+  }
+
+
+footer{
+    text-align: center;
+}
